@@ -52,22 +52,16 @@ app.post('/', function (req, res) {
         })
     })
 
- 
+
     // Write data to request body
     request.write(jsonData);
     request.end();
 });
 
-app.post('/failure', function(req, res){
+app.post('/failure', function (req, res) {
     res.redirect('/');
 })
 
 app.listen(process.env.PORT || 3000, function () {
     console.log('Server is running on port 3000.')
 })
-
-//API KEy
-//75a8123d35e5fc0d0f23a49f647bb393-us18
-
-//ListID
-//d62bcb715c

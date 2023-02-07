@@ -9,7 +9,7 @@ This application is a Work In Progress and will receive updates in the future.
 
 ## Built With
 *	JavaScript
-*	NodeJS - If cloning the project be sure to install node modules with ### npm install
+*	NodeJS - If cloning the project be sure to install node modules with *npm install*
 *	HTML5
 *	BootStrap
 
